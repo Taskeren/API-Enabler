@@ -6,6 +6,8 @@ This script is designed for the NL patching authors to help users to install. Se
 
 ## How to Use?
 
+[Example](https://github.com/Taskeren/NetLimiterPatching)
+
 You need to make a folder in this structure.
 
 ```
