@@ -37,6 +37,12 @@ And if the script fails at phase of patching, you skip the installation phase by
 ./Install.ps1 /patch
 ```
 
+### About PowerShell Execution Policies
+
+[Microsoft Document](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4)
+
+TL;DR - Execute `Set-ExecutionPolicy Unrestricted` to allow this script to run.
+
 ## License
 
 This script is licensed under WTFPL. But I hope that you don't change the credits in the script.
