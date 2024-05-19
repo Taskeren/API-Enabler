@@ -154,7 +154,7 @@ function PatchNetLimiter
     try
     {
         # apply patching files
-        Copy-Item -Path $NL_PATCH_PATH -Destination $NL_INSTALLATION_PATH -Recurse -Force
+        Copy-Item -Path "$NL_PATCH_PATH/*" -Destination $NL_INSTALLATION_PATH -Recurse -Force
         # rename the main app if exists
         if(Test-Path "$NL_INSTALLATION_PATH/NLClientApp.exe") {
             Move-Item -Path "$NL_INSTALLATION_PATH/NLClientApp.exe" -Destination "$NL_INSTALLATION_PATH/NL.exe" -Force
